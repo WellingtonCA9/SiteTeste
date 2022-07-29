@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Trabalhe Conosco</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="navBarra">
+            <p>MUNDO PEDIDO</p>
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="trabalheConosco.html">Trabalhe Conosco</a> </li>
+                <li> <a href="localizacao.html">Localização</a> </li>
+                <li> <a href="login.html">Login</a> </li>
+                <li> <a href="carrinho.html">Carrinho</a> </li>
+            </ul>
+        </header>
+        <section class="box">
+            <from action="">
+                <fieldset>
+                    <legend><b>TRABALHE CONOSCO</b></legend>
+                    <br>
+                    <div class="InputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome completo</label>
+                    </div>
+                    <br>
+                    <div class="InputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="labelInput">E-mail</label>
+                    </div>
+                    <br>
+                    <div class="InputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="telefone" class="labelInput">Telefone</label>
+                    </div>
+                    <br><br>
+                    <label>Envie seu currículo:</label>
+                    <input type="file" id="arquivo">
+                    <br><br>
+                    <label>Qual sua pretenção salárial:</label>
+                    <input type="range" list="tickmarks">
+                    <datalist id="tickmarks">
+                        <option value="1.212,00" label="R$ 1.212,00">
+                        <option value="2.000,00"><option value="3.000,00">
+                        <option value="4.000,00">
+                        <option value="5.000,00" label="R$ 5.000,00">
+                        <option value="6.000,00">
+                        <option value="7.000,00">
+                        <option value="8.000,00">
+                        <option value="9.000,00">
+                        <option value="10.000,00" label="R$ 10.000,00">
+                    </datalist>
+                    <br><br>
+                    <p>Selecione sua disponibilidade:</p>
+                    <input type="radio" id="desempregadoComecar" name="disponibilidade" value="Estou desempregado e tenho opção de começar agora">
+                    <label for="desempregadoComecar"> Estou desempregado e tenho opção de começar agora.</label>
+                    <br><br>
+                    <input type="radio" id="empregadoComecar" name="disponibilidade" value="Estou desempregado e tenho opção de começar agora">
+                    <label for="empregadoComecar"> Estou empregado, mas considero mudar de emprego.</label>
+                    <br><br>
+                    <input type="radio" id="empregadoNaoComecar" name="disponibilidade" value="Estou desempregado e tenho opção de começar agora">
+                    <label for="empregadoNaoComecar"> Estou empregado, mas não posso começar agora.</label>
+                    <br><br>
+                    <p>Deixe sua mensagem:</p>
+                    <textarea name="mensagem" rows="8" cols="60" maxlength="500"></textarea>
+                    <br><br>
+                    <input type="submit" id="submit" value="ENVIAR">
+                </fieldset>
+            </from>
+        </section>
+        <footer class="rodape">
+            <a href="https://www.youtube.com/watch?v=vGmkOJIcUnI" target="_blank" rel="noopener noreferrer">
+                <img src="./Imagens/insta.png">
+                <p>Instagram</p>
+            </a>
+            <a href="https://www.youtube.com/watch?v=vGmkOJIcUnI" target="_blank" rel="noopener noreferrer">
+                <img src="./Imagens/face2.png">
+                <p>Facebook</p>
+            </a>
+            <a href="https://www.youtube.com/watch?v=vGmkOJIcUnI" target="_blank" rel="noopener noreferrer">
+                <img src="./Imagens/twiter.png">
+                <p>Twitter</p>
+            </a>
+        </footer>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
